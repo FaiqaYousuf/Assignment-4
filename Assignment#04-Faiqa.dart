@@ -198,14 +198,20 @@ int pattern = 4;
 //QUESTION#15-----------
 
 
-int pattern= 4;
-
-  for (int i = 1; i <=pattern; i++) {
+void printAsteriskPyramid(int rows) {
+  for (int i = 1; i <= rows; i++) {
+    String row = "";
     for (int j = 1; j <= i; j++) {
-      print('*');
+      row += "* ";
     }
-    print('');
+    print(row);
   }
+}
+
+void main() {
+  int numRows = 4;
+  printAsteriskPyramid(numRows);
+}
 
 //QUESTION#16-----------
 
