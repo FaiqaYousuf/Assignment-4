@@ -297,7 +297,7 @@ String askForInput(String prompt) {
 //QUESTION#20-----------
 
 
-//  List<int> numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
+  List<int> numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
   
   int minimum = numbers[0];
   int maximum = numbers[0];
@@ -410,4 +410,5 @@ bool isPrime(int number) {
   return true;
 
 
+}
 }
